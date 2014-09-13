@@ -1,0 +1,42 @@
+{
+  "name": "dashboard",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ovaxio/pm-lucky",
+  "authors": [
+    "ovaxio <ovaxio@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.24",
+    "angular-ui-router": "~0.2.11",
+    "kiwi": "tuxlinuxien/kiwi#0.0.2"
+  },
+  "overrides": {
+    "angular": {
+      "main": [
+        "angular.min.js"
+      ]
+    },
+    "angular-ui-router": {
+      "main": [
+        "release/angular-ui-router.min.js"
+      ]
+    },
+    "kiwi" : {
+      "main" : [
+        "kiwi.min.css"
+      ]
+    }
+  }
+}
