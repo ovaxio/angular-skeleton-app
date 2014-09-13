@@ -13,3 +13,7 @@ This is a bootstrap of an angular application using :
 For compiling/building the app just run this command.
     
     $ gulp
+
+
+## This is only a skeleton
+This is only a skeleton app. The workflow is working but the modules are empty. It will help you to have a nice files structure to follow and a ready to use build system.
