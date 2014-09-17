@@ -4,6 +4,7 @@ var fs = require('fs'),
     return /(\.js$)/i.test(path.extname(name));
   });
 
+
 tasks.forEach(function(task) {
   require('./tasks/' + task);
 });
