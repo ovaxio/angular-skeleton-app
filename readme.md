@@ -1,5 +1,7 @@
 #AngularJS Skeleton app
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ovaxio/angular-skeleton-app.svg)](https://greenkeeper.io/)
+
 This is a bootstrap of an angular application using :
 + [gulp](https://github.com/gulpjs/gulp)
 + [bower](https://github.com/bower/bower)
