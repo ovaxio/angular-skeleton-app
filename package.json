@@ -4,6 +4,10 @@
   "description": "Skeleton app for AngularJS using gulp,bower,coffeescript,jade and stylus",
   "repository": "https://github.com/ovaxio/angular-skeleton-app.git",
   "author": "Guillaume Chambard <ovaxio@gmail.com>",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp deploy"
+  },
   "devDependencies": {
     "gulp": "^3.8.8",
     "gulp-changed": "^1.0.0",
